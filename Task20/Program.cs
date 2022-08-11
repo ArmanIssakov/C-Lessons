@@ -12,6 +12,6 @@ Console.Write("Введите координату x точки B: ");
 int xB = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите координату y точки B: ");
 int yB = Convert.ToInt32(Console.ReadLine());
-
-double line = Math.Sqrt((xB - xA)*(xB - xA)+(yB - yA)*(yB - yA));
+double line = Math.Sqrt(Math.Pow((xB - xA), 2)+Math.Pow((yB - yA), 2));
+// double line = Math.Sqrt((xB - xA)*(xB - xA)+(yB - yA)*(yB - yA));
 Console.WriteLine($"Расстояние между точками равно {line}");
