@@ -5,7 +5,7 @@
 // 918 -> 1
 Console.Write("Введите положительное трехзначное число, для вывода второй цифры этого числа:");
 int number = Convert.ToInt32(Console.ReadLine());
-int result = number % 100;
+int result = 0;
 if (number < 1000 && number > 99)
 {
     result = number % 100;
