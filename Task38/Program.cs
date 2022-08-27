@@ -36,7 +36,24 @@ void MaxMinusMin (double[] array)
     result = maxDesign - minDesign;
     Console.WriteLine(result);
 }
+void ReverseArray(double[] array)
+{
+    int size = array.Length;
+    int index1 = 0;
+    int index2 = size - 1;
+    while (index1 < index2)
+    {
+        int obj = array[index1];
+        array[index1] = array[index2];
+        array[index1] = obj;
+        index1++;
+        index2--;
+    }
+}
 double [] arr = CreateArrayRndDouble(4);
 PrintArray(arr);
+ReverseArray(arr);
+PrintArray(arr);
+
 Console.WriteLine();
 MaxMinusMin(arr);

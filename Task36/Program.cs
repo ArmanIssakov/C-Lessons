@@ -22,7 +22,20 @@ void PrintArray(int [] array)
     Console.Write(array[array.Length -1]);
     Console.Write("]");
 }
-
+void ReverseArray(int[] array)
+{
+    int size = array.Length;
+    int index1 = 0;
+    int index2 = size - 1;
+    while (index1 < index2)
+    {
+        int obj = array[index1];
+        array[index1] = array[index2];
+        array[index1] = obj;
+        index1++;
+        index2--;
+    }
+}
 void SumEvenIndex (int [] array)
 {
     int sumEvenIndexDigit = 0;
@@ -33,6 +46,8 @@ void SumEvenIndex (int [] array)
     Console.WriteLine($"Сумма чисел с четным индексом {sumEvenIndexDigit}");
 }
 int [] arr = CreateArrayRndInt(4, 1, 10);
+PrintArray(arr);
+ReverseArray(arr);
 PrintArray(arr);
 Console.WriteLine();
 SumEvenIndex(arr);
