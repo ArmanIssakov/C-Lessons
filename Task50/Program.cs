@@ -53,4 +53,5 @@ PrintMatrix(matr);
 // int element = matr[3, 3];
 // Console.WriteLine(element);
 // Console.WriteLine(matr[4,4]);
-VerifyElement(5, 3, matr);
+VerifyElement(5, 3, matr); // Вот это метод для определения наличия элемента в двумерном массиве. Входные данные 
+                           // (первый аргумент: координата х; второй аргумент: координата у; масив в котором нужно определить наличие элемента)
