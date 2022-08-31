@@ -32,12 +32,12 @@ void Arif(int[,] matrix)
             if (j == k) array[k] = array[k] + matrix[i, j];
             
             Console.Write($"{array[k]},");
+            
             // k++;
 
 
         }
-        // int m = array.Length - ;
-        // Console.WriteLine(array[m]);
+        Console.WriteLine("последние цифры являются суммой чисел в столбцах это пока, что я смог сделать");
     }
 
 
