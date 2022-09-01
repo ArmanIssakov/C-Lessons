@@ -19,6 +19,7 @@ int[,] CreateMatrixRndInt(int row, int col, int min, int max)
     }
     return matrix;
 }
+
 void PrintMatrix(int[,] matrix)
 {
 
