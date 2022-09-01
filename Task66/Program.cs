@@ -17,3 +17,4 @@ int SumNumber(int m, int n)
 int res = SumNumber(numberM, numberN);
 Console.WriteLine(res);
 // Теперь я знаю, что значит мозг завис :))
+//Принцип работы вроде ясен, но как, как это проиходит.
