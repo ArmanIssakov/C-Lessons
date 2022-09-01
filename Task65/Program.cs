@@ -27,3 +27,20 @@ void NaturalNumber(int m, int n)
     }
 }
 NaturalNumber(numberM, numberN);
+// void NaturalIntegersM2N(int valueM, int valueN)
+// {
+//     int increm = 0;
+//     if (valueM > valueN)
+//     {
+//         increm = -1;
+//     }
+//     else increm = 1;
+//     if (valueM == valueN)
+//     {
+//         Console.Write($"{valueN} ");
+//         return;
+//     }
+//     NaturalIntegersM2N(valueM, valueN - increm);        // 5 4 3 2 1 
+//     Console.Write($"{valueN} ");
+// }
+
